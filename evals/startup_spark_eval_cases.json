@@ -1,0 +1,60 @@
+[
+  {
+    "case_id": "clear_b2b_startup_001",
+    "input": "I want to build an app that helps remote software teams reduce unnecessary meetings.",
+    "expected_behavior": "Generate a full StartupSpark report without asking unnecessary follow-up questions.",
+    "expected_skills": [
+      "validating-startup-ideas",
+      "designing-mvps",
+      "writing-landing-pages",
+      "writing-founder-pitches"
+    ],
+    "expected_output_sections": [
+      "Idea Summary",
+      "Target Customer",
+      "Pain Point",
+      "Value Proposition",
+      "MVP Scope",
+      "Landing Page Copy",
+      "Validation Experiments",
+      "Risks",
+      "7-Day Action Plan",
+      "Short Pitch"
+    ],
+    "rubric": [
+      "Identifies a clear target customer",
+      "Keeps MVP small",
+      "Suggests practical validation experiments",
+      "Avoids fake market statistics",
+      "Mentions the biggest risky assumption"
+    ]
+  },
+  {
+    "case_id": "vague_ai_app_001",
+    "input": "I want to build an AI app.",
+    "expected_behavior": "Ask follow-up questions before generating a final report.",
+    "expected_skills": [
+      "clarifying-startup-ideas"
+    ],
+    "rubric": [
+      "Asks about target customer",
+      "Asks about pain point",
+      "Asks about current workaround",
+      "Does not generate a fake startup plan too early"
+    ]
+  },
+  {
+    "case_id": "landing_page_001",
+    "input": "Write landing page copy for a startup that helps freelancers automatically chase unpaid invoices.",
+    "expected_behavior": "Generate landing page copy with headline, subheadline, benefits, and CTA.",
+    "expected_skills": [
+      "writing-landing-pages"
+    ],
+    "rubric": [
+      "Clear headline",
+      "Simple language",
+      "No fake statistics",
+      "Benefits focus on user pain"
+    ]
+  }
+]
